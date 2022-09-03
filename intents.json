@@ -1,0 +1,60 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["hello", "hi", "good morning", "greetings", "hey", "what's up?", "good afternoon","good night","good evening"],
+     "responses": ["Hello, in what can I help you?", "Hi, how can I help?", "How can I help you?", "How are you doing?"],
+     "context_set": ""
+    },
+    {"tag": "greet1_good_response",
+        "patterns": ["i'm fine thank you", "i'm ok", "really fine, thank you!", "i'm quite alright!", "all good , thanks", "fine","i am alright","have a great day"],
+        "responses": ["Good to ear!", "That's great I Think! ", "Is that true? I hope soo!!!", "Thankfully!!!"],
+        "context_set":""
+    },
+    {"tag": "greet1_bad_response",
+        "patterns": ["Not cool,actually!", "i could be better", "i'm feeling sick", "not at all", "had better days", "it was a rough day", "don't want to talk about it !","shitty day", "shit day", "im not feeling good"],
+        "responses": ["Ohhh... I probably should get you something to eat!!!", "Sorry to ear!", "No worries, food always help!", "At least the meal we have for you will be joyfull","Always things I can't control!"],
+        "context_set":""
+    },
+  {"tag": "thanking",
+     "patterns": ["thank you", "thanks", "ok", "ok, thank you", "that was helpful"],
+     "responses": ["No Problem, I am glad that I could assist you! Is there anything else that you need help?", "Great!, Can I help you with anything else?", "Fantastic!, Do you have any more questions?"],
+     "context_set": ""
+    },
+    {"tag": "delivery",
+     "patterns": ["do you deliver to my house?", "home delivery", "is home delivery available?", "is there any deliveries?", "do you serve at home?", "do you have a take away service?", "is there a home delivery service available?"],
+     "responses": ["Sure! Our establishment delivers your order to your house!", "Sure, We provide home delivery!", "yes, we have a takeaway and home delivery service!"],
+     "context_set": ""
+    },
+    {"tag": "name",
+     "patterns": ["whats is your name", "who are you?", "can you tell me your name", "what's your name?"],
+     "responses": ["I'm Clirec, aka Client restaurant Chatbot,a ChatBot that serves our customers!", "You can call me Clirec ", "My name is Clirec, I am a restaurant customer service focused ChatBot"],
+     "context_set": ""
+    },
+    {"tag": "shop",
+     "patterns": ["id like to buy something", "whats on the menu", "what do you recommend?", "could i get something to eat", "menu", "i'm a veggie"],
+     "responses": ["We have on the menu the following: Big Tasty, Big Tasty with Bacon, Katsu Curry chicken McNuggets, Cheddar Melts, The Spicy Veggie One, Triple Cheeseburger, Crisppy Chicken Salad, Double Quarter Pounder with Cheese, Chicken Legend and The Sweet Chili ", "This is all we have available: Big Tasty, Big Tasty with Bacon, Katsu Curry chicken McNuggets, Cheddar Melts, The Spicy Veggie One, Triple Cheeseburger, Crisppy Chicken Salad, Double Quarter Pounder with Cheese, Chicken Legend and The Sweet Chili"],
+     "context_set": ""
+    },
+  {"tag": "ordering",
+     "patterns": ["i would like", "i want", "can i get", "i want to order"],
+     "responses": ["Great! Give us a call and we will take care of it!", "Great! Just call our phone number to place an order", "If you would like to order, call our number:123456789"],
+     "context_set": ""
+    },
+    {"tag": "phone",
+     "patterns": ["whats is your phone number", "phone number", "how can i contact you?", "contact"],
+     "responses": ["Our phone number is :123456789", "You can give us a call! 123456789", "Here you go! Phone Number:123456789"],
+     "context_set": ""
+    },
+  {"tag": "hours",
+     "patterns": ["when are you guys open", "what are your hours", "hours of operation", "what time do you close?","are you open mondays?","schedule", "days open", "hours open"],
+     "responses": ["We are open 9am-10pm Monday-Friday!"],
+     "context_set": ""
+    },
+
+    {"tag": "dismiss",
+        "patterns": ["cya", "see you later", "have a nice day", "bye", "goodbye", "see you soon","no","no,thanks","that is everything","no thank you"],
+        "responses": ["Goodbye!", "See you soon!", "See you later!"],
+        "context_set": ""
+       }
+    
+]
+}
